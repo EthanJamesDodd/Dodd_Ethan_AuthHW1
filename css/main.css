@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*This class will hide elements on our page*/
+.hidden
+{
+	display: none;
+}
+
+body{
+	background-color: #BECBDB;
+}
+
+#container{
+	width: 980px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+h1{
+	font-size: 32px;
+	font-family: 'Signika', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	color: #fff;
+}
+
+h2{
+	font-size: 16px;
+	font-family: 'Signika', sans-serif;
+	text-align: center;
+	margin-top: 5px;
+	color: #fff;
+}
+
+section{
+	width: 250px;
+	height: 250px;
+	background-color: #56697F;
+	float: left;
+	border-radius: 15px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+	float: left;
+	margin-left: 150px;
+	margin-top: 100px;
+	transition: all .5s ease-in-out;
+}
+
+#section3{
+	clear: both;
+}
+
+p{
+	font-family: 'Signika', sans-serif;
+	font-size: 24px;
+	margin-top: 150px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+	transition-delay: .4s;
+	text-align: center;
+}
+
+.subText{
+	font-size: 16px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+section:hover p{
+	opacity: .9;
+}
+
+section:hover{
+	background-color: #DFEDFF;
+	width: 300px;
+	height: 400px;
+}
